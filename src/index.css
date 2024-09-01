@@ -130,6 +130,10 @@ a {
   margin-top: 10px;
 }
 
+.gap-right-20 {
+  margin-right: 20px;
+}
+
 .omni-primary-btn {
   font-size: 14px;
   font-weight: 600;

@@ -1,0 +1,23 @@
+#hero-home {
+  background: linear-gradient(270deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 77.08%);
+  padding: 110px 0;
+  position: relative;
+}
+
+.hero-bg-overlay::after {
+  content: "";
+  background-image: url("/assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.cta-btns {
+  margin-top: 35px;
+}

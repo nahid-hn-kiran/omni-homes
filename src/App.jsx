@@ -1,4 +1,5 @@
 import Header from "./global/Header/Header";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <Header />
       </header>
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
