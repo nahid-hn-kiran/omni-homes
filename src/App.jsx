@@ -1,5 +1,13 @@
+import Header from "./global/Header/Header";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <header>
+        <Header />
+      </header>
+    </>
+  );
 }
 
 export default App;

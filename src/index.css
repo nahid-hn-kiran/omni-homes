@@ -1,0 +1,150 @@
+/* ==============
+    Google Fonts
+================ */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+/* ==============
+    Custom Fonts
+================ */
+@font-face {
+  font-family: "Eczar";
+  src: url("/assets/fonts/Eczar-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("/assets/fonts/Pacifico-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========
+    Base CSS
+============ */
+:root {
+  --eczar: "Eczar", sans-serif;
+  --pacifico: "Pacifico", sans-serif;
+  --archivo: "Archivo", sans-serif;
+  --white: #ffffff;
+  --gray: #6e6e6e;
+  --dark: #1a1a1a;
+  --primary-red: #8e0000;
+  --bg-pink: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: var(--eczar);
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.common-text {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.section-text {
+  font-size: 23px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.review-text {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: var(--archivo);
+  font-style: italic;
+  color: var(--gray);
+}
+
+.city-title {
+  font-size: 25px;
+  line-height: 46px;
+  color: var(--gray);
+}
+
+.hero-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-family: var(--pacifico);
+  color: var(--white);
+}
+
+.omni-card-title {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 800;
+  color: var(--primary-red);
+}
+
+.section-title {
+  font-size: 45px;
+  line-height: 59px;
+  color: var(--primary-red);
+}
+
+.gap-top-20 {
+  margin-top: 20px;
+}
+
+.gap-top-10 {
+  margin-top: 10px;
+}
+
+.omni-primary-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 6%;
+  color: var(--white);
+  padding: 15px 38px;
+  background-color: var(--primary-red);
+  text-transform: uppercase;
+}
+
+.py-50 {
+  padding: 50px 0;
+}
+
+.py-20 {
+  padding: 20px 0;
+}

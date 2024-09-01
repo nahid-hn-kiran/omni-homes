@@ -1,0 +1,42 @@
+/* Header Top  */
+.header-top {
+  background-color: var(--dark);
+  padding: 20px 0;
+}
+
+.header-top-text {
+  font-weight: 700 !important;
+  color: var(--white) !important;
+  text-transform: uppercase;
+}
+
+/* Navbar  */
+.main-menu {
+  display: flex;
+  gap: 35px;
+}
+
+.main-menu a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  text-transform: uppercase;
+}
+
+.dropdown-items {
+  display: none;
+}
+
+.dropdown-link {
+  position: relative;
+}
+
+.dropdown-link:hover > .dropdown-items {
+  display: block;
+}
+
+.dropdown-link > .dropdown-items {
+  position: absolute;
+  left: 20%;
+}
