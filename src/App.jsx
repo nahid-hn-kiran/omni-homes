@@ -1,3 +1,4 @@
+import Footer from "./global/Footer/Footer";
 import Header from "./global/Header/Header";
 import Home from "./pages/Home/Home";
 
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Home />
       </main>
+      <Footer />
     </>
   );
 }
