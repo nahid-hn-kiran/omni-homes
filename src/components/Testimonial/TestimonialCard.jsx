@@ -1,7 +1,6 @@
 import "./Testimonial.css";
 
 const TestimonialCard = (props) => {
-  console.log(props);
   const { img, author, comment } = props?.reviews;
   return (
     <div className="testimionial-card">

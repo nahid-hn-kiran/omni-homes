@@ -18,7 +18,7 @@ const Testimonial = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="testimonial-items gap-top-50">
+          <div className="testimonial-items gap-top-45">
             <Swiper
               slidesPerView={2}
               spaceBetween={30}

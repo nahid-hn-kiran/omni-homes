@@ -1,7 +1,9 @@
 import "./OmniCard.css";
 
 const OmniCard = (props) => {
-  const { img, title, description } = props.cardContent;
+  const { img, title, description, id } = props.cardContent;
+  console.log(props.readMore);
+  console.log(props);
   return (
     <div className="col-4">
       <div className="omni-card">
@@ -15,6 +17,9 @@ const OmniCard = (props) => {
             {title}
           </a>
           <p className="common-text gap-top-10">{description}</p>
+          <a href={`/${id}`} className="omni-card-link gap-top-10">
+            Read More
+          </a>
         </div>
       </div>
     </div>

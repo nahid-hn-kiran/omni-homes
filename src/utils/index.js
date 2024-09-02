@@ -25,3 +25,12 @@ export const janeImg = jane;
 
 import testimonialBg from "/assets/images/testimonial-bg.png";
 export const testimonialBgImg = testimonialBg;
+
+import article1 from "/assets/images/article1.png";
+export const article1Img = article1;
+
+import article2 from "/assets/images/article2.png";
+export const article2Img = article2;
+
+import article3 from "/assets/images/article3.png";
+export const article3Img = article3;

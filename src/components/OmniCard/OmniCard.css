@@ -3,7 +3,8 @@
   border-radius: 10px;
 }
 
-.omni-card-thumbnail img {
+.omni-card-thumbnail img,
+.omni-card-thumbnail a {
   width: 100%;
 }
 
