@@ -1,5 +1,6 @@
 import CardSide from "../../components/CardSide/CardSide";
 import OmniCard from "../../components/OmniCard/OmniCard";
+import Testimonial from "../../components/Testimonial/Testimonial";
 import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import { homePageServices, homeSideCard } from "../../constants";
 import Hero from "./Hero";
@@ -20,6 +21,8 @@ const Home = () => {
       <CardSide cardSideContent={homeSideCard} />
       {/* Our Values  */}
       <ValuesCard />
+      {/* Testimonial  */}
+      <Testimonial />
     </>
   );
 };

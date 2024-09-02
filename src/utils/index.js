@@ -16,3 +16,9 @@ export const helpMeRelocateImg = helpMeRelocate;
 
 import homeTeamCard from "/assets/images/team-card.png";
 export const homeTeamCardImg = homeTeamCard;
+
+import john from "/assets/images/john.png";
+export const johnImg = john;
+
+import jane from "/assets/images/jane.png";
+export const janeImg = jane;

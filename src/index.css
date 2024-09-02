@@ -124,6 +124,10 @@ a {
   color: var(--primary-red);
 }
 
+.gap-top-50 {
+  margin-top: 50px;
+}
+
 .gap-top-20 {
   margin-top: 20px;
 }

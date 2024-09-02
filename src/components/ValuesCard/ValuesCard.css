@@ -1,8 +1,11 @@
 .our-values {
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 50px;
   border-radius: 10px;
+}
+
+.values-card {
+  padding: 50px;
 }
 
 .values-card p {

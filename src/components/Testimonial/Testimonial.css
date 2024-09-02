@@ -1,0 +1,28 @@
+.clients-on-us {
+  position: relative;
+}
+
+.testimonial {
+  padding: 50px;
+}
+
+.reviewer img {
+  margin-right: 18px;
+}
+
+.testimionial-card {
+  background-color: var(--bg-pink);
+  padding: 35px;
+  position: relative;
+}
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.mySwiper {
+  position: static;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -40px !important;
+}
