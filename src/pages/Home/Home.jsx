@@ -1,5 +1,6 @@
 import CardSide from "../../components/CardSide/CardSide";
 import OmniCard from "../../components/OmniCard/OmniCard";
+import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import { homePageServices, homeSideCard } from "../../constants";
 import Hero from "./Hero";
 
@@ -16,9 +17,9 @@ const Home = () => {
         </div>
       </div>
       {/* Meet the Team  */}
-      <div className="container py-50">
-        <CardSide cardSideContent={homeSideCard} />
-      </div>
+      <CardSide cardSideContent={homeSideCard} />
+      {/* Our Values  */}
+      <ValuesCard />
     </>
   );
 };

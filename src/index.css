@@ -154,3 +154,7 @@ a {
 .py-20 {
   padding: 20px 0;
 }
+
+.text-white {
+  color: var(--white);
+}
