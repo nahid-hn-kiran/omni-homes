@@ -97,6 +97,12 @@ a {
   color: var(--gray);
 }
 
+.review-title {
+  font-size: 20px;
+  line-height: 29px;
+  color: var(--primary-red);
+}
+
 .city-title {
   font-size: 25px;
   line-height: 46px;

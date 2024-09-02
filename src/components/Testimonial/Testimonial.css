@@ -1,9 +1,16 @@
-.clients-on-us {
-  position: relative;
+.testimonial {
+  background-image: url("/assets/images/testimonial-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
 }
 
-.testimonial {
+.clients-on-us {
+  position: relative;
+  background-color: var(--white);
+  box-shadow: 0 10px 25px 0 #00000012;
   padding: 50px;
+  top: 262px;
 }
 
 .reviewer img {
@@ -18,11 +25,4 @@
 
 .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.mySwiper {
   position: static;
-}
-
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -40px !important;
 }

@@ -4,6 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { testimonialData } from "../../constants";
 
 const Testimonial = () => {
   return (
@@ -28,15 +29,11 @@ const Testimonial = () => {
               modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide>
-                <TestimonialCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <TestimonialCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <TestimonialCard />
-              </SwiperSlide>
+              {testimonialData.map((data) => (
+                <SwiperSlide key={data.id}>
+                  <TestimonialCard reviews={data} />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>

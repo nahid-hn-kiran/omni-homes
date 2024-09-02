@@ -1,16 +1,14 @@
-import { johnImg } from "../../utils";
 import "./Testimonial.css";
 
-const TestimonialCard = () => {
+const TestimonialCard = (props) => {
+  console.log(props);
+  const { img, author, comment } = props?.reviews;
   return (
     <div className="testimionial-card">
-      <p className="review-text">
-        “ Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque “
-      </p>
+      <p className="review-text">{comment && comment}</p>
       <div className="reviewer d-flex align-items-center gap-top-20">
-        <img src={johnImg} alt="john" />
-        <p className="review-text">Mr. John Doe</p>
+        <img src={img && img} alt={author && author} />
+        <p className="review-title">{author && author}</p>
       </div>
     </div>
   );

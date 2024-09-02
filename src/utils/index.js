@@ -22,3 +22,6 @@ export const johnImg = john;
 
 import jane from "/assets/images/jane.png";
 export const janeImg = jane;
+
+import testimonialBg from "/assets/images/testimonial-bg.png";
+export const testimonialBgImg = testimonialBg;
