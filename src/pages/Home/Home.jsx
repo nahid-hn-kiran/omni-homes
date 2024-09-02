@@ -4,6 +4,7 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import { articles, homePageServices, homeSideCard } from "../../constants";
 import Hero from "./Hero";
+import OurLocations from "./OurLocations";
 
 const Home = () => {
   const threeArticles = articles.slice(0, 3);
@@ -40,6 +41,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Our Locations  */}
+      <OurLocations />
     </>
   );
 };

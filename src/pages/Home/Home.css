@@ -29,3 +29,24 @@
 .more-about-us {
   margin-top: 262px;
 }
+
+.location {
+  margin-top: 40px;
+}
+
+.location-icon {
+  height: 28px;
+  width: 28px;
+  background-color: var(--primary-red);
+  position: relative;
+  border-radius: 50%;
+}
+
+.location-icon svg {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+}
