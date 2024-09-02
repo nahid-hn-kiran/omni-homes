@@ -13,3 +13,6 @@ export const sellMyHouseImg = sellMyHouse;
 
 import helpMeRelocate from "/assets/images/help-me-relocate.jpeg";
 export const helpMeRelocateImg = helpMeRelocate;
+
+import homeTeamCard from "/assets/images/team-card.png";
+export const homeTeamCardImg = homeTeamCard;

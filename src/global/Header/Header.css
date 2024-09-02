@@ -16,12 +16,13 @@
   gap: 35px;
 }
 
-.main-menu a {
+.main-menu .navigation-link {
   font-size: 14px;
   line-height: 24px;
   font-weight: 600;
   color: var(--dark);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .dropdown-items {

@@ -1,4 +1,9 @@
-import { findMyHomeImg, helpMeRelocateImg, sellMyHouseImg } from "../utils";
+import {
+  findMyHomeImg,
+  helpMeRelocateImg,
+  homeTeamCardImg,
+  sellMyHouseImg,
+} from "../utils";
 
 // Constant Content will be exported from here
 export const homePageServices = [
@@ -21,3 +26,14 @@ export const homePageServices = [
     description: "We can help you to relocate in a good place.",
   },
 ];
+
+export const homeSideCard = {
+  id: 1,
+  img: homeTeamCardImg,
+  title: "Meet the Team",
+  description1:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description2:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  meetTeamBtn: true,
+};

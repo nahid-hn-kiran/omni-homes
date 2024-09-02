@@ -12,44 +12,44 @@ const Navbar = () => {
           <div>
             <ul className="main-menu">
               <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/" className="dropdown-link">
-                  About Us
-                  <IoIosArrowDown />
-                  <ul className="dropdown-items">
-                    <li>
-                      <a href="/">Why Us</a>
-                    </li>
-                    <li>
-                      <a href="/">Our Projects</a>
-                    </li>
-                    <li>
-                      <a href="/">Our History</a>
-                    </li>
-                  </ul>
+                <a href="/" className="navigation-link">
+                  Home
                 </a>
               </li>
-              <li>
-                <a href="/" className="dropdown-link">
-                  Resources
-                  <IoIosArrowDown />
-                  <ul className="dropdown-items">
-                    <li>
-                      <a href="/">Success Stories</a>
-                    </li>
-                    <li>
-                      <a href="/">Ebooks</a>
-                    </li>
-                    <li>
-                      <a href="/">Magazines</a>
-                    </li>
-                  </ul>
-                </a>
+              <li className="dropdown-link navigation-link">
+                About Us
+                <IoIosArrowDown />
+                <ul className="dropdown-items">
+                  <li>
+                    <a href="/">Why Us</a>
+                  </li>
+                  <li>
+                    <a href="/">Our Projects</a>
+                  </li>
+                  <li>
+                    <a href="/">Our History</a>
+                  </li>
+                </ul>
+              </li>
+              <li className="dropdown-link navigation-link">
+                Resources
+                <IoIosArrowDown />
+                <ul className="dropdown-items">
+                  <li>
+                    <a href="/">Success Stories</a>
+                  </li>
+                  <li>
+                    <a href="/">Ebooks</a>
+                  </li>
+                  <li>
+                    <a href="/">Magazines</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="/">Contact Us</a>
+                <a href="/" className="navigation-link">
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
