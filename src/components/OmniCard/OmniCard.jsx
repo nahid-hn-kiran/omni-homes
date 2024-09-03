@@ -5,7 +5,7 @@ const OmniCard = (props) => {
   console.log(props.readMore);
   console.log(props);
   return (
-    <div className="col-4">
+    <div className="col">
       <div className="omni-card">
         <div className="omni-card-thumbnail">
           <a href="/">

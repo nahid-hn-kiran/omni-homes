@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       {/* Home Services Section  */}
       <div className="container">
-        <div className="row row-cols-md-3 home-page-services">
+        <div className="row row-cols-1 gy-4 row-cols-sm-2 row-cols-md-3 d-flex align-items-stretch home-page-services">
           {homePageServices.map((service) => (
             <OmniCard key={service.id} cardContent={service} />
           ))}
@@ -29,7 +29,7 @@ const Home = () => {
       <div className="more-about-us py-50">
         <div className="container">
           <h2 className="section-title text-center">Learn More About Dayton</h2>
-          <div className="row grid-cols-md-3 py-50">
+          <div className="row row-cols-1 gx-3 gy-4 row-cols-sm-2 row-cols-md-3 py-50">
             {threeArticles.map((article) => (
               <OmniCard key={article.id} readMoe="true" cardContent={article} />
             ))}

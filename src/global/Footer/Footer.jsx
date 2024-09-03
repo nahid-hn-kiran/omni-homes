@@ -30,7 +30,7 @@ const Footer = () => {
               <p className="common-text">+1 555-555-5555</p>
             </div>
           </div>
-          <div className="col-md-2 col-sm-6">
+          <div className="col-md-2 col-6">
             <h3 className="omni-card-title">Menu</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 col-sm-6">
+          <div className="col-md-2 col-6">
             <h3 className="omni-card-title">About Us</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
@@ -121,7 +121,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 col-sm-6">
+          <div className="col-md-2 col-6">
             <h3 className="omni-card-title">Legal</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
@@ -171,7 +171,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 col-sm-6">
+          <div className="col-md-2 col-6">
             <h3 className="omni-card-title">Social</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
@@ -180,7 +180,7 @@ const Footer = () => {
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaFacebook />
-                  <a href="/">Facebook</a>
+                  Facebook
                 </a>
               </li>
               <li>
@@ -189,7 +189,7 @@ const Footer = () => {
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaXTwitter />
-                  <a href="/">X.com</a>
+                  X.com
                 </a>
               </li>
               <li>
@@ -198,7 +198,7 @@ const Footer = () => {
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaYoutube />
-                  <a href="/">Youtube</a>
+                  Youtube
                 </a>
               </li>
               <li>
@@ -207,7 +207,7 @@ const Footer = () => {
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaGithub />
-                  <a href="/">Github</a>
+                  Github
                 </a>
               </li>
               <li>
@@ -215,8 +215,7 @@ const Footer = () => {
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
-                  <FaLinkedin />
-                  <a href="/">Linkedin</a>
+                  <FaLinkedin /> Linkedin
                 </a>
               </li>
             </ul>

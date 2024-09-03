@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="hero-home">
       <div className="hero-bg-overlay"></div>
       <div className="container">
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <h1 className="hero-title">Make Your Dream Home a Reality</h1>
           <p className="section-text gap-top-20">
             Welcome to Odis Slone Realty, where Friends are family!
@@ -19,7 +19,7 @@ const Hero = () => {
             <button className="omni-primary-btn gap-right-20">
               Contact Us
             </button>
-            <button className="omni-primary-btn">Meet Our agents</button>
+            <button className="omni-primary-btn cta-2">Meet Our agents</button>
           </div>
         </div>
       </div>

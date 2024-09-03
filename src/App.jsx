@@ -1,6 +1,6 @@
+import { Outlet } from "react-router-dom";
 import Footer from "./global/Footer/Footer";
 import Header from "./global/Header/Header";
-import Home from "./pages/Home/Home";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <Home />
+        <Outlet />
       </main>
       <Footer />
     </>

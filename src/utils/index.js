@@ -34,3 +34,9 @@ export const article2Img = article2;
 
 import article3 from "/assets/images/article3.png";
 export const article3Img = article3;
+
+import aboutOurReality from "/assets/images/about-our-reality.png";
+export const aboutOurRealityImg = aboutOurReality;
+
+import aboutOurCommitment from "/assets/images/about-our-commitment.png";
+export const aboutOurCommitmentImg = aboutOurCommitment;

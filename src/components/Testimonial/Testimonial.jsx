@@ -9,9 +9,9 @@ import { testimonialData } from "../../constants";
 const Testimonial = () => {
   return (
     <div className="testimonial">
-      <div className="container">
+      <div className="container-md">
         <div className="clients-on-us">
-          <div className="col-md-6">
+          <div className="col-12 col-md-8 col-lg-6">
             <h2 className="section-title">We love our clients!</h2>
             <p className="common-text gap-top-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -20,8 +20,14 @@ const Testimonial = () => {
           </div>
           <div className="testimonial-items gap-top-45">
             <Swiper
-              slidesPerView={2}
+              slidesPerView={1}
               spaceBetween={30}
+              breakpoints={{
+                800: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+              }}
               loop={true}
               pagination={{
                 clickable: true,

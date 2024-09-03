@@ -2,8 +2,8 @@ import "./ValuesCard.css";
 
 const ValuesCard = () => {
   return (
-    <div className="container bg-dark our-values">
-      <div className="values-card d-flex justify-content-between align-items-center">
+    <div className="container">
+      <div className="values-card d-flex flex-wrap gap-3 justify-content-center gap-x-4 justify-content-md-between align-items-center bg-dark our-values text-center">
         <p className="omni-card-title value-title">Our Core Values</p>
         <p className="common-text">Integrity First</p>
         <p className="common-text">Customer Focus</p>
