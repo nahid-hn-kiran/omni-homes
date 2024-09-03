@@ -39,7 +39,7 @@ const AboutUs = () => {
       </div>
       {/* Testimonial  */}
       <Testimonial />
-      <div className="spacer-222"></div>
+      <div className="spacer-212"></div>
     </div>
   );
 };

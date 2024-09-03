@@ -190,3 +190,61 @@ export const teamMembers = [
     email: "email@example.com",
   },
 ];
+
+// Resources
+export const realEstateResources = [
+  {
+    id: "001",
+    title: "Luxury Villa in Beverly Hills",
+    description: "Spacious 5-bed villa with private pool",
+    img: "assets/images/resource1.png",
+  },
+  {
+    id: "002",
+    title: "Modern Apartment in Manhattan",
+    description: "2-bed apartment with skyline views",
+    img: "assets/images/resource2.png",
+  },
+  {
+    id: "003",
+    title: "Beachfront Condo in Miami",
+    description: "3-bed condo with ocean access",
+    img: "assets/images/resource3.png",
+  },
+  {
+    id: "004",
+    title: "Country House in Texas",
+    description: "4-bed house with large backyard",
+    img: "assets/images/resource4.png",
+  },
+  {
+    id: "005",
+    title: "Penthouse in Downtown Chicago",
+    description: "Luxury penthouse with city views",
+    img: "assets/images/resource5.png",
+  },
+  {
+    id: "006",
+    title: "Cottage in the Hamptons",
+    description: "Cozy 2-bed cottage near the beach",
+    img: "assets/images/resource6.png",
+  },
+  {
+    id: "007",
+    title: "Suburban Home in Atlanta",
+    description: "3-bed home with private garden",
+    img: "assets/images/resource7.png",
+  },
+  {
+    id: "008",
+    title: "Ranch in Colorado",
+    description: "Sprawling ranch with mountain views",
+    img: "assets/images/resource8.png",
+  },
+  {
+    id: "009",
+    title: "Townhouse in San Francisco",
+    description: "Modern townhouse in prime location",
+    img: "assets/images/resource9.png",
+  },
+];

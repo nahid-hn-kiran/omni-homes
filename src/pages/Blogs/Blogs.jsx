@@ -1,7 +1,7 @@
 const Blogs = () => {
   return (
     <div>
-      <h2>Blogs</h2>
+      <h2>Hello From Blogs</h2>
     </div>
   );
 };
