@@ -76,6 +76,10 @@ a {
   background-color: var(--dark);
 }
 
+.spacer-222 {
+  margin-top: 222px;
+}
+
 .common-text {
   font-size: 17px;
   line-height: 26px;

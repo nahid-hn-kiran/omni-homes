@@ -1,5 +1,7 @@
 import CardSide from "../../components/CardSide/CardSide";
 import OmniCard from "../../components/OmniCard/OmniCard";
+import Testimonial from "../../components/Testimonial/Testimonial";
+import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import {
   aboutCommitmentCardBottom,
   aboutRealityCardTop,
@@ -18,6 +20,7 @@ const AboutUs = () => {
           <CardSide cardSideContent={aboutCommitmentCardBottom} />
         </div>
       </div>
+      {/* Team Members  */}
       <div className="about-us team">
         <div className="container">
           <h2 className="section-title text-center">Meet the Team</h2>
@@ -30,6 +33,13 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      {/* Core Values  */}
+      <div className="about-core-values">
+        <ValuesCard />
+      </div>
+      {/* Testimonial  */}
+      <Testimonial />
+      <div className="spacer-222"></div>
     </div>
   );
 };

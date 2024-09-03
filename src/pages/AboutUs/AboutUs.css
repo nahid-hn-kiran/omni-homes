@@ -6,3 +6,15 @@
 .team-members {
   row-gap: 45px;
 }
+
+.about-core-values .our-values {
+  background-color: var(--bg-pink) !important;
+}
+
+.about-core-values .value-title {
+  color: var(--primary-red);
+}
+
+.about-core-values .common-text {
+  color: var(--gray);
+}
