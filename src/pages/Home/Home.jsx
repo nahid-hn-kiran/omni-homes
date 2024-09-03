@@ -4,6 +4,7 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import { articles, homePageServices, homeSideCard } from "../../constants";
 import Hero from "./Hero";
+import { Link } from "react-router-dom";
 import OurLocations from "./OurLocations";
 
 const Home = () => {
@@ -40,9 +41,9 @@ const Home = () => {
             ))}
           </div>
           <div className="view-all-btn text-center">
-            <a href="/" className="omni-primary-btn">
+            <Link to="/" className="omni-primary-btn">
               View All
-            </a>
+            </Link>
           </div>
         </div>
       </div>

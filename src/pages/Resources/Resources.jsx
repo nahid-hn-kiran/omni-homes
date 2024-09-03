@@ -1,6 +1,7 @@
 import OmniCard from "../../components/OmniCard/OmniCard";
 import { realEstateResources } from "../../constants";
 import "./Resources.css";
+import { Link } from "react-router-dom";
 
 const Resources = () => {
   return (
@@ -15,9 +16,9 @@ const Resources = () => {
           ))}
         </div>
         <div className="view-more text-center">
-          <a href="/" className="omni-primary-btn">
+          <Link to="/" className="omni-primary-btn">
             View More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

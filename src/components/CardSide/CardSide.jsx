@@ -1,5 +1,5 @@
-import { homeTeamCardImg } from "../../utils";
 import "./CardSide.css";
+import { Link } from "react-router-dom";
 
 const CardSide = (props) => {
   const { title, img, description1, description2, btn } =
@@ -22,12 +22,12 @@ const CardSide = (props) => {
               {description2 && description2}
             </p>
             {btn && (
-              <a
+              <Link
                 href={btn?.link}
                 className="omni-primary-btn meet-agents-btn gap-top-20"
               >
                 {btn?.text}
-              </a>
+              </Link>
             )}
           </div>
           <div className="col omni-card-thumbnail">

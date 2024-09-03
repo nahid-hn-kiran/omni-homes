@@ -1,4 +1,5 @@
 import "./OmniCard.css";
+import { Link } from "react-router-dom";
 
 const OmniCard = (props) => {
   const { img, title, name, description, id, bio, phone, email } =
@@ -7,22 +8,22 @@ const OmniCard = (props) => {
     <div className="col">
       <div className="omni-card">
         <div className="omni-card-thumbnail">
-          <a href="/">
+          <Link to="/">
             <img src={img} alt={title && title} className="omni-card-img" />
-          </a>
+          </Link>
         </div>
         <div className="omni-content">
-          <a href={`/${id}`} className="omni-card-title">
+          <Link to={`/${id}`} className="omni-card-title">
             {title && title}
             {name && name}
-          </a>
+          </Link>
           <p className="common-text gap-top-10">{description && description}</p>
           <p className="common-text gap-top-10">{bio && bio}</p>
           <p className="common-text gap-top-10">{phone && phone}</p>
           <p className="common-text gap-top-10">{email && email}</p>
-          <a href={`/${id}`} className="omni-card-link gap-top-10">
+          <Link to={`/${id}`} className="omni-card-link gap-top-10">
             {name ? "Contact " + name : props?.readMore && "Read More"}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

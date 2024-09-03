@@ -7,9 +7,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import Resources from "./pages/Resources/Resources.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
-import Blogs from "./pages/Blogs/Blogs.jsx";
 import Home from "./pages/Home/Home.jsx";
 import SinglePost from "./pages/SinglePost/SinglePost.jsx";
+import NotFound from "./pages/NotFound/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,12 +33,12 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "blogs",
-        element: <Blogs />,
-      },
-      {
         path: "post",
         element: <SinglePost />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },

@@ -27,6 +27,12 @@
 
 .dropdown-items {
   display: none;
+  background-color: var(--primary-red);
+  padding: 20px;
+}
+
+.dropdown-items a {
+  color: var(--white);
 }
 
 .dropdown-link {

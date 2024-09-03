@@ -10,6 +10,7 @@ import { logoImg } from "../../utils";
 import "./Footer.css";
 import { FaEnvelope, FaXTwitter } from "react-icons/fa6";
 import FooterCopyright from "./FooterCopyright";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -34,49 +35,49 @@ const Footer = () => {
             <h3 className="omni-card-title">Menu</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Resources
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Lead Magnet
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -84,40 +85,40 @@ const Footer = () => {
             <h3 className="omni-card-title">About Us</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Company Information
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Our Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Press and Media
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Careers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -125,49 +126,49 @@ const Footer = () => {
             <h3 className="omni-card-title">Legal</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Privacy & Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Terms and Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Cookie Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
                   Accessibility
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -175,48 +176,48 @@ const Footer = () => {
             <h3 className="omni-card-title">Social</h3>
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaFacebook />
                   Facebook
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaXTwitter />
                   X.com
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaYoutube />
                   Youtube
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaGithub />
                   Github
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="index.html"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaLinkedin /> Linkedin
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

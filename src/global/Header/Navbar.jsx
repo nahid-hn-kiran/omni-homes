@@ -1,5 +1,6 @@
 import { IoIosArrowDown } from "react-icons/io";
 import { logoImg } from "../../utils";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,44 +13,48 @@ const Navbar = () => {
           <div>
             <ul className="main-menu">
               <li>
-                <a href="/" className="navigation-link">
+                <Link to="/" className="navigation-link">
                   Home
-                </a>
+                </Link>
               </li>
-              <li className="dropdown-link navigation-link">
-                About Us
+              <li className="dropdown-link">
+                <Link to="/about-us" className="navigation-link">
+                  About Us
+                </Link>
                 <IoIosArrowDown />
                 <ul className="dropdown-items">
                   <li>
-                    <a href="/">Why Us</a>
+                    <Link to="/">Why Us</Link>
                   </li>
                   <li>
-                    <a href="/">Our Projects</a>
+                    <Link to="/">Our Projects</Link>
                   </li>
                   <li>
-                    <a href="/">Our History</a>
+                    <Link to="/">Our History</Link>
                   </li>
                 </ul>
               </li>
-              <li className="dropdown-link navigation-link">
-                Resources
+              <li className="dropdown-link">
+                <Link to="/resources" className="navigation-link">
+                  Resources
+                </Link>
                 <IoIosArrowDown />
-                <ul className="dropdown-items">
+                <ul className="dropdown-items flex flex-column gy-4">
                   <li>
-                    <a href="/">Success Stories</a>
+                    <Link to="/">Success Stories</Link>
                   </li>
                   <li>
-                    <a href="/">Ebooks</a>
+                    <Link to="/">Ebooks</Link>
                   </li>
                   <li>
-                    <a href="/">Magazines</a>
+                    <Link to="/">Magazines</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/" className="navigation-link">
+                <Link to="/contact-us" className="navigation-link">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
