@@ -1,0 +1,7 @@
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  background-color: #ececec;
+  color: #a19d9d;
+  border: 1px solid #6e6e6ecc;
+}
