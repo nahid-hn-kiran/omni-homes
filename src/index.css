@@ -169,6 +169,10 @@ a {
   padding: 100px 0;
 }
 
+.pb-100 {
+  padding-bottom: 100px;
+}
+
 .py-20 {
   padding: 20px 0;
 }

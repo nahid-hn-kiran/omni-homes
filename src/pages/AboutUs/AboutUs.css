@@ -2,3 +2,7 @@
   font-size: 60px;
   line-height: 78px;
 }
+
+.team-members {
+  row-gap: 45px;
+}

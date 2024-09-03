@@ -40,3 +40,26 @@ export const aboutOurRealityImg = aboutOurReality;
 
 import aboutOurCommitment from "/assets/images/about-our-commitment.png";
 export const aboutOurCommitmentImg = aboutOurCommitment;
+
+// Members Images
+
+import member1 from "/assets/images/member-1.png";
+
+import member2 from "/assets/images/member-2.png";
+
+import member3 from "/assets/images/member-3.png";
+
+import member4 from "/assets/images/member-4.png";
+
+import member5 from "/assets/images/member-5.png";
+
+import member6 from "/assets/images/member-6.png";
+
+export const teamMembersImg = {
+  member1: member1,
+  member2: member2,
+  member3: member3,
+  member4: member4,
+  member5: member5,
+  member6: member6,
+};

@@ -31,7 +31,11 @@ const Home = () => {
           <h2 className="section-title text-center">Learn More About Dayton</h2>
           <div className="row row-cols-1 gx-3 gy-4 row-cols-sm-2 row-cols-md-3 py-50">
             {threeArticles.map((article) => (
-              <OmniCard key={article.id} readMoe="true" cardContent={article} />
+              <OmniCard
+                key={article.id}
+                readMore="true"
+                cardContent={article}
+              />
             ))}
           </div>
           <div className="view-all-btn text-center">

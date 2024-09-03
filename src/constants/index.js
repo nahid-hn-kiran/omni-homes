@@ -10,6 +10,7 @@ import {
   janeImg,
   johnImg,
   sellMyHouseImg,
+  teamMembersImg,
 } from "../utils";
 
 // Constant Content will be exported from here
@@ -136,5 +137,56 @@ export const articles = [
     description:
       "Understand the advantages of integrating smart home technology, including increased convenience, energy efficiency, and enhanced security features.",
     img: article2Img,
+  },
+];
+
+export const teamMembers = [
+  {
+    id: 1,
+    img: teamMembersImg.member1,
+    name: "Jane Foster",
+    bio: "Senior Real Estate Agent with expertise in property sales.",
+    phone: "+1234567890",
+    email: "email@example.com",
+  },
+  {
+    id: 2,
+    img: teamMembersImg.member2,
+    name: "Bob Smith",
+    bio: "Real Estate Consultant specializing in market analysis.",
+    phone: "+1234567891",
+    email: "email@example.com",
+  },
+  {
+    id: 3,
+    img: teamMembersImg.member3,
+    name: "Charlie Brown",
+    bio: "Lead Realtor focusing on residential property investments.",
+    phone: "+1234567892",
+    email: "email@example.com",
+  },
+  {
+    id: 4,
+    img: teamMembersImg.member4,
+    name: "Diana Prince",
+    bio: "Property Manager ensuring smooth rental operations.",
+    phone: "+1234567893",
+    email: "email@example.com",
+  },
+  {
+    id: 5,
+    img: teamMembersImg.member5,
+    name: "Eve Adams",
+    bio: "Real Estate Broker with a track record in commercial deals.",
+    phone: "+1234567894",
+    email: "email@example.com",
+  },
+  {
+    id: 6,
+    img: teamMembersImg.member6,
+    name: "Frank Miller",
+    bio: "Real Estate Investor focusing on high-value properties.",
+    phone: "+1234567895",
+    email: "email@example.com",
   },
 ];
