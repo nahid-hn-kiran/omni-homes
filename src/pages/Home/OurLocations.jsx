@@ -2,7 +2,7 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 
 const OurLocations = () => {
   return (
-    <div className="locations py-100">
+    <div className="locations gap-top-45">
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 gy-4 align-items-center">
           <div className="col">

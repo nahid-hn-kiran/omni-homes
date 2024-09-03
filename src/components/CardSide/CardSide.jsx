@@ -4,6 +4,8 @@ import "./CardSide.css";
 const CardSide = (props) => {
   const { title, img, description1, description2, btn } =
     props?.cardSideContent;
+
+  console.log(props);
   return (
     <div className="card-side py-50">
       <div className="container">
@@ -12,6 +14,9 @@ const CardSide = (props) => {
             <h2 className="section-title card-side-title">{title && title}</h2>
             <p className="common-text gap-top-20">
               {description1 && description1}
+            </p>
+            <p className="common-text gap-top-10">
+              {description2 && description2}
             </p>
             <p className="common-text gap-top-10">
               {description2 && description2}

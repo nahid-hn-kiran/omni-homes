@@ -107,28 +107,30 @@ export const articles = [
     title: "Choosing the Perfect Home Location: Factors to Consider",
     description:
       "Explore key considerations for selecting the ideal neighborhood, including proximity to amenities, schools, and public transportation.",
-    img: article1Img,
+    img: "assets/images/article1.png",
+    article: `When it comes to buying a home, the location is one of the most critical factors to consider. The right neighborhood can significantly impact your quality of life, future property value, and overall satisfaction with your purchase. Here are some key considerations to keep in mind Proximity to Amenities: Being close to essential services like grocery stores, healthcare facilities, and shopping centers can make daily life more convenient. Check if the neighborhood has everything you need within a short distance.School District Quality: If you have children or plan to start a family, the quality of local schools is a top priority. Research the ratings of nearby schools and consider how their performance might affect your child's education and future resale value.Access to Public Transportation: Easy access to public transportation can save you time and money, especially if you work in a nearby city. Look for neighborhoods with good transit options like buses, trains, or subways. Safety and Crime Rates: Feeling secure in your home is essential.
+    Research local crime rates and speak with residents to get a sense of how safe the area feels. When it comes to buying a home, the location is one of the most critical factors to consider. The right neighborhood can significantly impact your quality of life, future property value, and overall satisfaction with your purchase. Here are some key considerations to keep in mind Proximity to Amenities: Being close to essential services like grocery stores, healthcare facilities, and shopping centers can make daily life more convenient. Check if the neighborhood has everything you need within a short distance.School District Quality: If you have children or plan to start a family, the quality of local schools is a top priority. Research the ratings of nearby schools and consider how their performance might affect your child's education and future resale value.Access to Public Transportation: Easy access to public transportation can save you time and money, especially if you work in a nearby city. Look for neighborhoods with good transit options like buses, trains, or subways. Safety and Crime Rates: Feeling secure in your home is essential. Research local crime rates and speak with residents to get a sense of how safe the area feels`,
   },
   {
     id: 2,
     title: "Top Renovation Tips for Homes: Boosting Value and Comfort",
     description:
       "Discover essential renovation tips to enhance both the value and comfort of your home, from kitchen upgrades to bathroom remodels.",
-    img: article2Img,
+    img: "assets/images/article2.png",
   },
   {
     id: 3,
     title: "Understanding Home Market Trends: A Comprehensive Guide",
     description:
       "Get insights into current real estate market trends, including pricing patterns, buyer preferences, and economic factors affecting the housing market.",
-    img: article3Img,
+    img: "assets/images/article3.png",
   },
   {
     id: 4,
     title: "How to Secure Home Financing: A Step-by-Step Approach",
     description:
       "Learn the process of securing home financing, from improving your credit score to understanding mortgage options and securing the best rates.",
-    img: article1Img,
+    img: "assets/images/article4.png",
   },
   {
     id: 5,
@@ -136,7 +138,7 @@ export const articles = [
       "Benefits of Smart Home Features: Enhancing Convenience and Security",
     description:
       "Understand the advantages of integrating smart home technology, including increased convenience, energy efficiency, and enhanced security features.",
-    img: article2Img,
+    img: "assets/images/article5.png",
   },
 ];
 

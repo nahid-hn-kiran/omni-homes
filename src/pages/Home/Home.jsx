@@ -25,6 +25,7 @@ const Home = () => {
       <ValuesCard />
       {/* Testimonial  */}
       <Testimonial />
+      <div className="spacer-212"></div>
       {/* Articles  */}
       <div className="more-about-us py-50">
         <div className="container">

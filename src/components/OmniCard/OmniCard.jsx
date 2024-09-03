@@ -8,7 +8,7 @@ const OmniCard = (props) => {
       <div className="omni-card">
         <div className="omni-card-thumbnail">
           <a href="/">
-            <img src={img} alt={title} className="omni-card-img" />
+            <img src={img} alt={title && title} className="omni-card-img" />
           </a>
         </div>
         <div className="omni-content">
