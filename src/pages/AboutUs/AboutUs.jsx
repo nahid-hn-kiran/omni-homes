@@ -3,13 +3,16 @@ import {
   aboutCommitmentCardBottom,
   aboutRealityCardTop,
 } from "../../constants";
+import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
     <div className="about-us-page">
       <div className="about-page-hero">
         <div className="container">
-          <CardSide cardSideContent={aboutRealityCardTop} />
+          <div className="about-reality-top">
+            <CardSide cardSideContent={aboutRealityCardTop} />
+          </div>
           <CardSide cardSideContent={aboutCommitmentCardBottom} />
         </div>
       </div>

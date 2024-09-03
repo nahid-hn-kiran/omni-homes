@@ -8,12 +8,17 @@ import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import Resources from "./pages/Resources/Resources.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import Blogs from "./pages/Blogs/Blogs.jsx";
+import Home from "./pages/Home/Home.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "",
+        element: <Home />,
+      },
       {
         path: "about-us",
         element: <AboutUs />,

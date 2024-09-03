@@ -9,7 +9,7 @@ const CardSide = (props) => {
       <div className="container">
         <div className="row row-cols-1 gy-4 row-cols-md-2 align-items-center">
           <div className="col">
-            <h2 className="section-title">{title && title}</h2>
+            <h2 className="section-title card-side-title">{title && title}</h2>
             <p className="common-text gap-top-20">
               {description1 && description1}
             </p>
