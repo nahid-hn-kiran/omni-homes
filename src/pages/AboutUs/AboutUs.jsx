@@ -24,7 +24,7 @@ const AboutUs = () => {
       <div className="about-us team">
         <div className="container">
           <h2 className="section-title text-center">Meet the Team</h2>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 gap-top-45 team-members pb-100">
+          <div className="omni-row-cols-1 omni-row-cols-md-2 omni-row-cols-lg-3 gap-top-45 team-members pb-100">
             {teamMembers.map((member) => (
               <div className="col" key={member.id}>
                 <OmniCard cardContent={member} />

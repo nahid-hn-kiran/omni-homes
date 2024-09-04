@@ -8,7 +8,7 @@ const Resources = () => {
     <div className="resources">
       <div className="container">
         <h2 className="section-title text-center">Resources</h2>
-        <div className="row row-cols-sm-2 row-cols-md-3 py-50 our-resources">
+        <div className="omni-row-cols-1 omni-row-cols-md-2 omni-row-cols-lg-3 py-50 our-resources">
           {realEstateResources.map((resource) => (
             <div className="col" key={resource.id}>
               <OmniCard readMore="true" cardContent={resource} />

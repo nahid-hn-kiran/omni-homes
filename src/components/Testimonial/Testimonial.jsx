@@ -9,7 +9,7 @@ import { testimonialData } from "../../constants";
 const Testimonial = () => {
   return (
     <div className="testimonial">
-      <div className="container-md">
+      <div className="container-lg">
         <div className="clients-on-us">
           <div className="col-12 col-md-8 col-lg-6">
             <h2 className="section-title">We love our clients!</h2>

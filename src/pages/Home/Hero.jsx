@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Hero = () => {
@@ -16,10 +17,12 @@ const Hero = () => {
             decades to come.
           </p>
           <div className="cta-btns">
-            <button className="omni-primary-btn gap-right-20">
+            <Link to="/contact-us" className="omni-primary-btn gap-right-20">
               Contact Us
-            </button>
-            <button className="omni-primary-btn cta-2">Meet Our agents</button>
+            </Link>
+            <Link to="/about-us" className="omni-primary-btn cta-2">
+              Meet Our agents
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./NotFound.css";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
@@ -11,13 +12,13 @@ const NotFound = () => {
             <p className="lead section-title">
               Oops! The page youre looking for doesnt exist.
             </p>
-            <button
-              href="/"
+            <Link
+              to="/"
               size="lg"
               className="gap-top-20 omni-primary-btn rounded"
             >
               Go Back to Home
-            </button>
+            </Link>
           </Col>
         </Row>
       </Container>

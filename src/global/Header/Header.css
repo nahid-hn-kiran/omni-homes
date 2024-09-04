@@ -57,14 +57,9 @@
 
 .responsive-menu {
   position: relative;
+  cursor: pointer;
+  z-index: 10;
 }
-
-/* .mobile-menu {
-  position: absolute;
-  right: 0;
-  background-color: var(--primary-red);
-  padding: 20px;
-} */
 
 .mobile-menu {
   width: 150px;
@@ -95,10 +90,13 @@
 
 .close {
   display: none;
+  height: 0;
+  overflow: hidden;
 }
 
 .open {
   display: block;
+  height: auto;
 }
 
 .mobile-menu .mobile-dropdown-items {
