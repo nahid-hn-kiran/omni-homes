@@ -16,6 +16,10 @@
   gap: 35px;
 }
 
+nav ul li {
+  padding: 10px;
+}
+
 .main-menu .navigation-link {
   font-size: 14px;
   line-height: 24px;
@@ -34,7 +38,8 @@
 .dropdown-items {
   display: none;
   background-color: var(--primary-red);
-  padding: 10px 20px;
+  padding: 10px;
+  min-width: 150px;
 }
 
 .dropdown-items a {
@@ -53,6 +58,7 @@
 .dropdown-link > .dropdown-items {
   position: absolute;
   right: 0;
+  top: 40px;
 }
 
 .responsive-menu {
@@ -106,7 +112,8 @@
   right: 100%;
   border-radius: 2px;
   display: none;
-  padding: 10px 30px;
+  min-width: 150px;
+  padding: 10px;
 }
 
 .mobile-menu .mobile-dropdown-items a {

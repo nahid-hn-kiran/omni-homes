@@ -42,7 +42,7 @@ const Footer = () => {
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -51,7 +51,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -60,7 +60,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -69,7 +69,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -92,7 +92,7 @@ const Footer = () => {
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -101,7 +101,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -110,7 +110,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -119,7 +119,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -133,7 +133,7 @@ const Footer = () => {
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -142,7 +142,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -151,7 +151,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -160,7 +160,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -169,7 +169,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaPlay />
@@ -183,7 +183,7 @@ const Footer = () => {
             <ul className="d-flex flex-column gap-3 gap-top-20">
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaFacebook />
@@ -192,7 +192,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaXTwitter />
@@ -201,7 +201,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaYoutube />
@@ -210,7 +210,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaGithub />
@@ -219,7 +219,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="index.html"
+                  to="/"
                   className="d-flex align-items-center gap-2 common-text"
                 >
                   <FaLinkedin /> Linkedin

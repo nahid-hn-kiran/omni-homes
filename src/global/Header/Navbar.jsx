@@ -127,7 +127,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="header-btn d-none d-lg-block">
-            <button className="omni-primary-btn">Lead Magnet</button>
+            <Link to="/contact-us" className="omni-primary-btn">
+              Lead Magnet
+            </Link>
           </div>
         </div>
       </div>
