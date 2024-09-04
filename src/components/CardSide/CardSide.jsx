@@ -16,12 +16,9 @@ const CardSide = (props) => {
             <p className="common-text gap-top-10">
               {description2 && description2}
             </p>
-            <p className="common-text gap-top-10">
-              {description2 && description2}
-            </p>
             {btn && (
               <Link
-                href={btn?.link}
+                to={btn?.link}
                 className="omni-primary-btn meet-agents-btn gap-top-20"
               >
                 {btn?.text}

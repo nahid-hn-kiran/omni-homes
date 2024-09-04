@@ -5,7 +5,7 @@ const FooterCopyright = () => {
   return (
     <div className="footer-copyright">
       <p className="copyright-text text-center">
-        &copy;{currentYear} All right Reserved - Odis Slone Realty
+        &copy;{currentYear} All right Reserved - Omni Homes
       </p>
     </div>
   );

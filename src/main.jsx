@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "post",
+        path: ":id",
         element: <SinglePost />,
       },
       {
