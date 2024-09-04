@@ -18,17 +18,23 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-between gy-5 footer-top">
           <div className="col-md-4 col-12">
-            <img src={logoImg} alt="Logo" />
+            <Link to="/">
+              <img src={logoImg} alt="Logo" />
+            </Link>
             <p className="common-text gap-top-20">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="d-flex gap-2 align-items-center gap-top-20">
               <FaEnvelope />
-              <p className="common-text">Hello@Email.com</p>
+              <p className="common-text">
+                <Link to="mailto:Hello@Email.com">Hello@Email.com</Link>
+              </p>
             </div>
             <div className="d-flex align-items-center gap-2 footer-left gap-top-20">
               <FaPhoneAlt />
-              <p className="common-text">+1 555-555-5555</p>
+              <p className="common-text">
+                <Link to="tel:+1 555-555-5555">+1 555-555-5555</Link>
+              </p>
             </div>
           </div>
           <div className="col-md-2 col-6">
