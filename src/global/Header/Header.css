@@ -11,6 +11,9 @@
 }
 
 /* Navbar  */
+.logo-area img {
+  height: 80px;
+}
 .main-menu {
   display: flex;
   gap: 35px;

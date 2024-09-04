@@ -1,5 +1,7 @@
+import PropTypes from "prop-types";
+
 const Article = (props) => {
-  const { title, img, description, article } = props?.article;
+  const { title, img, description, article } = props.article;
   return (
     <article>
       <div className="card-side py-50">
@@ -40,6 +42,11 @@ const Article = (props) => {
       </div>
     </article>
   );
+};
+
+Article.propTypes = {
+  article: PropTypes.object,
+  article2: PropTypes.object,
 };
 
 export default Article;

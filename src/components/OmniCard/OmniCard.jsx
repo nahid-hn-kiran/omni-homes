@@ -1,5 +1,6 @@
 import "./OmniCard.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const OmniCard = (props) => {
   const { img, title, name, description, id, bio, phone, email } =
@@ -21,11 +22,16 @@ const OmniCard = (props) => {
         <p className="common-text gap-top-10">{phone && phone}</p>
         <p className="common-text gap-top-10">{email && email}</p>
         <Link to={`/${id}`} className="omni-card-link gap-top-10">
-          {name ? "Contact " + name : props?.readMore && "Read More"}
+          {name ? "Contact " + name : props.readMore && "Read More"}
         </Link>
       </div>
     </div>
   );
+};
+
+OmniCard.propTypes = {
+  cardContent: PropTypes.object,
+  readMore: PropTypes.string,
 };
 
 export default OmniCard;

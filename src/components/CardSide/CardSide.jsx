@@ -1,11 +1,9 @@
 import "./CardSide.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const CardSide = (props) => {
-  const { title, img, description1, description2, btn } =
-    props?.cardSideContent;
-
-  console.log(props);
+  const { title, img, description1, description2, btn } = props.cardSideContent;
   return (
     <div className="card-side py-50">
       <div className="container">
@@ -40,3 +38,7 @@ const CardSide = (props) => {
 };
 
 export default CardSide;
+
+CardSide.propTypes = {
+  cardSideContent: PropTypes.object,
+};
