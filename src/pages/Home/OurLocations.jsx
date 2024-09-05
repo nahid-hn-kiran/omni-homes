@@ -7,7 +7,7 @@ const OurLocations = () => {
         <div className="row row-cols-1 row-cols-md-2 gy-4 align-items-center">
           <div className="col">
             <h2 className="section-title">
-              The Locations for Odis <br /> Slone Realty are:
+              The Locations for Omni <br /> Homes are:
             </h2>
             <div className="location row row-cols-2 gap-top-45">
               <div className="col">

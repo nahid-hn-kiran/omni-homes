@@ -21,7 +21,7 @@ const OmniCard = (props) => {
         <p className="common-text gap-top-10">{bio && bio}</p>
         <p className="common-text gap-top-10">{phone && phone}</p>
         <p className="common-text gap-top-10">{email && email}</p>
-        <Link to={`/${id}`} className="omni-card-link gap-top-10">
+        <Link to={`/`} className="omni-card-link gap-top-10">
           {name ? "Contact " + name : props.readMore && "Read More"}
         </Link>
       </div>

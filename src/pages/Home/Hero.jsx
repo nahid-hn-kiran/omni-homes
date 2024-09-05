@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="col-lg-6">
           <h1 className="hero-title">Make Your Dream Home a Reality</h1>
           <p className="section-text gap-top-20">
-            Welcome to Odis Slone Realty, where Friends are family!
+            Welcome to Omni Homes Realty, where Friends are family!
           </p>
           <p className="section-text gap-top-10">
             As your trusted real estate team in the Greater Dayton, Ohio area,

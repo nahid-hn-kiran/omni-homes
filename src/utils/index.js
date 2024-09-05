@@ -2,7 +2,7 @@
 import logo from "/assets/images/logo.png";
 export const logoImg = logo;
 
-import heroBg from "/assets/images/hero-bg.png";
+import heroBg from "/assets/images/hero-bg.jpg";
 export const heroBgImg = heroBg;
 
 import findMyHome from "/assets/images/dream-home.jpeg";

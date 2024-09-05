@@ -41,7 +41,7 @@ const Home = () => {
             ))}
           </div>
           <div className="view-all-btn text-center">
-            <Link to="/" className="omni-primary-btn">
+            <Link to="/about-us" className="omni-primary-btn">
               View All
             </Link>
           </div>

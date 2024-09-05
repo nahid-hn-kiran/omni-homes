@@ -47,11 +47,11 @@ export const homeSideCard = {
 export const aboutRealityCardTop = {
   id: 2,
   img: aboutOurRealityImg,
-  title: "About Odis Slone Realty",
+  title: "About Omni Homes",
   description1:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   btn: {
-    link: "/",
+    link: "/contact-us",
     text: "Contact Us",
   },
 };
