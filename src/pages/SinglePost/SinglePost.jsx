@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { articles } from "../../constants";
 import Article from "./Article";
 import { FaArrowLeft } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 const SinglePost = () => {
   const { id } = useParams();
@@ -12,6 +13,9 @@ const SinglePost = () => {
   };
   return (
     <div className="single-post">
+      <Helmet>
+        <title>Omni Homes | {post.title}</title>
+      </Helmet>
       <div className="container">
         <div className="post-top">
           <button

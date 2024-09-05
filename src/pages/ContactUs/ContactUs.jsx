@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import ValuesCard from "../../components/ValuesCard/ValuesCard";
 import "./Contact.css";
@@ -11,6 +12,9 @@ const ContactUs = () => {
   };
   return (
     <div className="contact-us-page pb-50">
+      <Helmet>
+        <title>Omni Homes | Contact Us</title>
+      </Helmet>
       <div className="contact-page-hero">
         <div className="container">
           <h2 className="section-title text-center">Contact Us</h2>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import CardSide from "../../components/CardSide/CardSide";
 import OmniCard from "../../components/OmniCard/OmniCard";
 import Testimonial from "../../components/Testimonial/Testimonial";
@@ -12,6 +13,9 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="about-us-page">
+      <Helmet>
+        <title>Omni Homes | About Us</title>
+      </Helmet>
       <div className="about-page-hero">
         <div className="container">
           <div className="about-reality-top">

@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./global/Footer/Footer";
 import Header from "./global/Header/Header";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
-    <>
+    <HelmetProvider>
       <header>
         <Header />
       </header>
@@ -12,7 +13,7 @@ function App() {
         <Outlet />
       </main>
       <Footer />
-    </>
+    </HelmetProvider>
   );
 }
 
