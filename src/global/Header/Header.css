@@ -11,12 +11,6 @@
 }
 
 /* Navbar  */
-.omni-nav-menu {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-}
-
 .logo-area img {
   height: 80px;
 }
