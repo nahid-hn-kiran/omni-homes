@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "./global/Footer/Footer";
 import Header from "./global/Header/Header";
 import { HelmetProvider } from "react-helmet-async";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <ScrollToTop smooth />
       <Footer />
     </HelmetProvider>
   );

@@ -11,7 +11,7 @@ const Navbar = () => {
     setShow(!show);
   };
   return (
-    <nav className="py-20">
+    <nav className="py-20 omni-nav-menu">
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
           <div className="logo-area">
